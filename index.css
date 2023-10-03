@@ -1,23 +1,58 @@
 .container header nav a {
   margin: 0 10px;
-  border: 1px solid rgb(215, 18, 18);
+  border: 1px solid #ff764e(215, 18, 18);
   padding: 20px;
   display: inline-block;
   border-radius: 20px;
-  color: rgb(223, 226, 8);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin-bottom: 20px;
-  background: #e79947;
+  background: #ff764e;
 }
+
 .container {
   width: 750px;
   margin: 0 auto;
 }
-
-.container header nav a:hover {
-  background: white;
-  color: #e79947;
+a {
+  color: #ff764e;
 }
-img {
-  border-radius: 10px;
+
+.image-container img {
+  width: 15%;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+img.yuvarlak {
+  border-radius: 50%;
+}
+.ortalama {
+  text-align: center;
+}
+.arka {
+  background-color: #ddb9a3;
+}
+.balon {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.balon img {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.atv {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.atv img {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 auto;
 }
